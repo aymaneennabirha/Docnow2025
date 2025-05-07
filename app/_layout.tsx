@@ -30,8 +30,121 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="splash" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
+        <Stack.Screen 
+  name="premier" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="signup" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="login" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="home" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="ForgotPasswordScreen" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+
+<Stack.Screen 
+  name="VerifyCodeScreen" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="ProfileScreen" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+
+<Stack.Screen 
+  name="MessagesScreen" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+
+<Stack.Screen 
+  name="BookScreen" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+
+<Stack.Screen 
+  name="ConfirmationScreen" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="ConfirmationSuccessScreen" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+
+<Stack.Screen 
+  name="chat/[id]" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="InformationUserScreen" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="calendar" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="Changepass" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="favorites" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+
+<Stack.Screen 
+  name="details-doctor.tsx" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+
+
+
+
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
