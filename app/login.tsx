@@ -10,11 +10,15 @@ const LoginScreen = () => {
   const router = useRouter();
 
   const handleLogin = () => {
-    // Logique de connexion ici
+    // Simule une vérification du login
     console.log('Email:', email);
     console.log('Password:', password);
-    router.push('/home');  // Assurez-vous que le chemin '/home' correspond bien à votre page d'accueil
 
+    if (password === 'doctor') {
+      router.push('/DoctorHomeScreen'); // ✅ Page d'accueil médecin
+    } else {
+      router.push('/home');       // ✅ Page d'accueil patient
+    }
   };
 
   return (

@@ -141,6 +141,30 @@ export default function RootLayout() {
     headerShown: false // Ceci cache complètement la barre de navigation
   }} 
 />
+<Stack.Screen 
+  name="docmessage" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="doctorcalandar" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="DoctorHomeScreen" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
+<Stack.Screen 
+  name="notifications" 
+  options={{ 
+    headerShown: false // Ceci cache complètement la barre de navigation
+  }} 
+/>
 
 
 
